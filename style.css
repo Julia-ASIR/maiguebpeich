@@ -1,0 +1,30 @@
+#banner, #tablavidas {
+	display: flex;
+	justify-content: center;
+}
+
+#menus {
+	float: right;
+	font-family: Arial;
+	width: 550px;
+	height: 60px;
+	border: solid 1px;
+	border-color: black;
+	position: left;
+}
+
+#ultimas, #pelacables, #tituloinspiracion, h1, h2, h3 {
+	font-family: Arial;
+}
+
+#defipela, #inspiracion, p {
+	font-family: Arial;
+	margin-left: 10px;
+	margin-right: 200px;
+}
+
+footer {
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+}
