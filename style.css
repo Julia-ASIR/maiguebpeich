@@ -17,10 +17,22 @@
 	font-family: Arial;
 }
 
-#defipela, #inspiracion, p {
+#defipela, #inspiracion, #nombre, #subitulo, p {
 	font-family: Arial;
 	margin-left: 10px;
 	margin-right: 200px;
+}
+
+#descargasadvertencia {
+	float: center;
+	font-family: Arial;
+	text-decoration-color: red;
+	width: 550px;
+	height: 60px;
+	border: solid 1px;
+	border-color: black;
+	position: center;
+
 }
 
 footer {
