@@ -1,0 +1,129 @@
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>mellamoeva.es</title>
+    <link rel="stylesheet" type="text/css" href="../../style.css">
+  </head>
+  <body>
+
+  <!--INICIO ENCABEZADO-->
+  <div id="nombre">
+    <h3>Eva: la de Sistemas</h3>
+  </div>
+
+  <div id="subtitulo">
+    La web de una pelacables.
+  </div>
+  <!--FIN ENCABEZADO-->
+
+  <div id="menu">
+    <p>
+      <a href="../../index.html">Inicio</a> | <a href="paginas/entradaslinux.html">Linux</a>
+    </p>
+  </div>
+  <hr>
+
+  <!--inicio noticia-->
+
+  <h1>ARTÍCULO BAJO CONSTRUCCIÓN</h1>
+
+  <h1>Guía de descarga e instalación del IDE NetBeans en Debian 11 "Bullseye"</h1>
+
+  <p>
+    Aunque soy fiel a Sublime Text (me gusta mucho cómo funciona y es bastante fácil trabajar con el repositorio de GitHub), estoy aprendiendo bases de datos con MySQL y un poquito de Java y esto ya se me queda corto.
+  </p>
+
+  <p>
+    Un buen colega, me recomendó Eclipse y he estado leyendo que es perfecto para Java y se puede preparar para trabajar con SQL, sin embargo es un poco tedioso hacerlo. Entre las características de NetBeans se encuentra que es mucho más sencillo hacer el proceso anterior porque tiene incorporado el soporte para bases de datos, de modo, que he decidido probar con éste a ver qué tal.
+  </p>
+
+  <!--tabla contenidos-->
+
+  <h2>1 - Descargar e instalar el runtime y el kit de desarrollo de Java</h2>
+
+  <p>
+    Para que todo funcione bien, necesitamos el JRE (la máquina virtual de Java para poder ejecutar los programas escritos en dicho lenguaje) y el JDK (el conjunto de herramientas necesarias para escribir código de Java, compilarlo...)
+  </p>
+
+  <p>
+    Abrimos la consola de comandos y ejecutamos la orden:<br>
+    <b>sudo apt install openjdk-17-jdk openjdk-17-jre -y</b>
+  </p>
+
+  <h2>2 - Descargar el script de instalacion de Apache NetBeans</h2>
+  
+  <p> 
+    Una vez termine el proceso, entramos en <a href="https://www.apache.org/dyn/closer.cgi/netbeans/netbeans-installers/14/Apache-NetBeans-14-bin-linux-x64.sh" target="_blank" rel="noreferrer noopener">este enlace</a>
+  </p>
+
+  <p>
+    Si os fijais la siguiente imagen, he rodeado con un rectángulo rojo el enlace que contiene el script.<br>
+    <b>Algo que NO me ha gustado demasiado es que debes hacer un WGET para poderd descargártelo y, si sabes de Linux, sabes cómo se obtiene ese archivo pero alguien que empieza de cero no tiene por qué saber eso. Vuelvo a mi recurrente frase de "luego nos quejamos de que Linux no triunfa en el mercado de escritorio</b>.
+  </p>
+
+  <p>
+    De todos modos, no os penséis que esta guía es muy "muy user-friendly": no he podido encontrar manera menos desagradable que explicarte para qué sirve cada comando y dártelo todo pasito a pasito y masticadito para que no te caigas de espaldas si es tu primera vez con Linux.
+  </p>
+
+  <p>
+    IMAGEN- copiar enlace de postimage.
+  </p>
+
+  <p>
+    En resumidas cuentas: lo que debeis hacer es:<br>
+    <ol>
+      <li>
+        Copiar el enlace del rectángulo rojo en el portapapeles (simplemente haz click derecho y selecciona Copiar dirección de enlace).
+      </li>
+      <li>
+        Abre la consola de comandos.
+      </li>
+      <li>
+        Crea una carpeta con el comando <b>mkdir netbeans</b>, después escribe <b>wget enlace-que-has-copiado</b> (El enlace se pega con Ctrl + Shift + V · ¡Recuerda dejar un espacio entre <b>wget</b> y <b>el enlace</b>).
+      </li>
+      <li>
+        El script es algo pesadito y tarda un poco en descargarse, pero, una vez haya finalizado, cambia a la carpeta Netbeans y añade permisos de ejecución con <b>cd netbeans && sudo chmod +x presiona-tabulador</b>
+      </li>
+      <li>
+        Por último, ejecuta el script: <b>sudo sh ./presiona-tabulador</b>
+      </li>
+    </ol>
+  </p>
+
+  <p>
+    El resto de la instalación transcurre de forma normal, ya que este script se parece más a un instalador gráfico de Windows.
+  </p>
+
+  <p>
+    Por defecto, la instalación incluye:<br>
+    <ul>
+      <li>
+        El editor de código.
+      </li>
+      <li>
+        Las ediciones Standard y Enterprise de Java.
+      </li>
+      <li>
+        Paquete de HTML5, JS (JavaScript) y PHP.
+      </li>
+    </ul>
+  </p>
+
+  <p>
+    Todo ello, redondeando, no llega a ocupar los 800 MB en disco, así que no nos preocupemos por eso.<br>
+    Cabe decir que yo he dejado todo lo del instalador por defecto.
+  </p>
+
+  <p>
+    Hacemos click en Finish y ya hemos terminado, ahora, solamente queda abrir el programa y abrirse sin ningún problema.<br>
+    A mi me ha funcionado a la primera.
+  </p>
+
+  <p>
+    Para finalizar, en otro momento publicaré una guía acerca de cómo clonar y manejar el repo de Git desde el IDE Apache NetBeans.
+  </p>
+
+  <!--fin noticia-->
+
+  </body>
+</html>
