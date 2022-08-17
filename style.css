@@ -26,6 +26,7 @@
 #descargasadvertencia {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	font-family: Arial;
 	color: red;
 	width: 550px;
