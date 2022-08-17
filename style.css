@@ -35,7 +35,7 @@
 	border-color: black;
 }
 
-footer {
+footer, #encabezados {
 	text-align: center;
 	font-family: Arial;
 	font-weight: bold;
