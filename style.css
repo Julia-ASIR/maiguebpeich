@@ -27,13 +27,11 @@
 	display: flex;
 	justify-content: center;
 	font-family: Arial;
-	text-decoration-color: red;
+	color: red;
 	width: 550px;
 	height:100px;
 	border: solid 1px;
 	border-color: black;
-	position: center;
-
 }
 
 footer {
